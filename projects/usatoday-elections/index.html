@@ -1,0 +1,538 @@
+
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+
+    
+
+
+
+
+
+
+<title>Realtime Election 2012 Results Maps — Development Seed</title>
+<meta name="description" content="Partnering with USA TODAY to build a fast and dynamic election night dashboard with interactive maps of the realtime election results, responsively designed to fit tablets and modern smart phones, as well as standard computer browsers." />
+
+<!-- Twiter Cards -->
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@developmentseed" />
+<meta name="twitter:title" content="Realtime Election 2012 Results Maps — Development Seed">
+<meta name="twitter:description" content="Partnering with USA TODAY to build a fast and dynamic election night dashboard with interactive maps of the realtime election results, responsively designed to fit tablets and modern smart phones, as well as standard computer browsers." />
+<meta name="twitter:image:src" content="https://developmentseed.org/assets/graphics/meta/default-meta-image.png" />
+
+
+
+<!--/ Twiter Cards -->
+
+<!-- Open Graph -->
+<meta property="og:site_name" content="Development Seed" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Realtime Election 2012 Results Maps — Development Seed" />
+<meta property="og:url" content="https://developmentseed.org/projects/usatoday-elections/" />
+<meta property="og:description" content="Partnering with USA TODAY to build a fast and dynamic election night dashboard with interactive maps of the realtime election results, responsively designed to fit tablets and modern smart phones, as well as standard computer browsers." />
+<meta property="og:image" content="https://developmentseed.org/assets/graphics/meta/default-meta-image.png" />
+<!--/ Open Graph -->
+
+    <link rel="icon" type="image/png" sizes="96x96" href="../../assets/graphics/meta/favicon.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="../../assets/graphics/meta/android-chrome.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../../assets/graphics/meta/apple-touch-icon.png" />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i" />
+
+    <link rel="stylesheet" href="../../assets/styles/vendor-63bcd5dba0.css">
+    <link rel="stylesheet" href="../../assets/styles/main-e3d778071c.css">
+    <link rel="author" href="../../humans.txt" type="text/plain" />
+
+    <script>
+      var DSO = window.DSO = {}; DSO.baseUrl = 'https://developmentseed.org';
+    </script>
+
+    <script src="../../assets/scripts/vendor-5f37a7c54c.js"></script>
+    <script src="../../assets/scripts/bundle-c9a6bce2c8.js"></script>
+  </head>
+  
+
+  
+  <body class="theme-pos">
+  
+    <div class="page">
+
+      <header class="page__header" role="banner">
+        <div class="inner">
+
+          <div class="page__headline">
+            <h1 class="page__title">
+              <a href="../../index.html" title="Development Seed">
+                
+                <img src="../../assets/graphics/layout/ds-logo-pos.svg" alt="Development Seed logotype" width="188" height="32" />
+                
+                <span>Development Seed</span>
+              </a>
+            </h1>
+          </div>
+
+          <nav class="page__prime-nav nav" role="navigation">
+            <a href="index.html#global-menu" title="Reveal menu" class="prime-action prime-action--browse" data-global-menu><span>Browse</span></a></h2>
+            <a href="index.html#search" title="Search content" class="prime-action prime-action--search" data-search-open><span>Search</span></a>
+
+            <div class="menu-wrapper">
+              <h2>Browse</h2>
+              <button type="button" class="global-menu-dismiss" title="Close" data-global-menu><span>Dismiss</span></button>
+
+              <ul class="global-menu" id="global-menu">
+                <li class="global-menu__item">
+                  <a href="../index.html" title="View the projects" class="global-menu__link global-menu__link--active"><span>Projects</span></a>
+                </li>
+                <li class="global-menu__item">
+                  <a href="https://greenhouse.developmentseed.org/" title="Visit The Greenhouse" class="global-menu__link"><small class="global-menu__label">The Greenhouse<span>: </span></small><span>Labs</span></a>
+                </li>
+                <li class="global-menu__item">
+                  <a href="https://medium.com/devseed" title="View our blog on Medium" class="global-menu__link"><span>Blog</span></a>
+                </li>
+                <li class="global-menu__item">
+                  <a href="../../team/index.html" title="View the team" class="global-menu__link "><span>Team</span></a>
+                </li>
+                <li class="global-menu__item">
+                  <a href="../../careers/jobs/index.html" title="Join the team" class="global-menu__link "><span>Careers</span></a>
+                </li>
+                <li class="global-menu__item">
+                  <a href="../../about/index.html" title="Read about us" class="global-menu__link "><span>About</span></a>
+                </li>
+                <li class="global-menu__item">
+                  <a href="../../contacts/index.html" title="Get in touch" class="global-menu__link "><span>Contacts</span></a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+
+        </div>
+      </header>
+
+      <main class="page__body" role="main">
+        <article class="inpage inpage--single inpage--projects">
+  <header class="inpage__header">
+    <div class="inner">
+      <div class="inpage__headline">
+        
+        <h1 class="inpage__title">Realtime Election 2012 Results&nbsp;Maps</h1>
+        
+      </div>
+
+      
+    </div>
+
+    
+  </header>
+
+  <div class="inpage__body">
+    <div class="inner">
+      <div class="prose prose--responsive">
+        <p><img src="http://farm8.staticflickr.com/7276/8163240276_7c725b4f9a_o.png" alt="Full screen dashboard" /></p>
+
+<p>Throughout the 2012 election cycle, we’ve been fascinated with idea of visualizing realtime election results. On election day starting when voting concludes on the East Coast, newsrooms race to process and visualize vote totals in each of the 50 states, 435 congressional districts, and 3,200 counties across the country. The Associated Press provides a feed of results data aggregated from staff deployed across the country on eight minute intervals. Since nearly all news outlets subscribe to this data, the race to report results first is really about having an incredibly short time to publish, while maintaining a steadfast focus on reliability during what’s often the highest traffic night for news websites. The excitement of the night and availability of a reliable source of fast data make this a really exciting problem to solve.</p>
+
+<p>In the thick of a massive redesign and brand overhaul across all printed and electronic media, USA TODAY brought on our team to help them build a new <a href="http://i.usatoday.net/news/graphics/elections-2012-app/index.html">realtime election mapping platform</a>. Our work culminated in a responsively designed web application that powered a full screen dashboard, a smart phone and tablet view, and eight different embeddable views used throughout election night on the USATODAY.com homepage and several topic and article pages. Here’s how we built it.</p>
+
+<p><img src="http://farm9.staticflickr.com/8197/8163071792_b26e15a8cb_o.png" alt="USA TODAY homepage on election night" /></p>
+
+<h2 id="the-maps">The maps</h2>
+
+<p>Our first decision was around how to render the maps in a way that would maximize reliability while reducing time to update. We considered a few options for this:</p>
+
+<ul>
+  <li><strong>Live rendering tile server</strong>: We configure <a href="http://mapbox.com/tilemill">TileMill</a> on a server to generate map tiles on a schedule with the release of new results data. The map tiles would be hosted on <a href="http://mapbox.com">mapbox.com</a> to ensure the highest possible availability. This option was appealing because we’ve worked extensively with tile-based maps, including the MapBox Streets base layer, but it would mean considerable modifications to our hosting server to allow for faster than hourly updates.</li>
+  <li><strong>Server-side static map image generation</strong>: We have TileMill render full view maps instead of map tiles. These images could be hosted on any static file web server with fast update times. However the need for a dozen different views multiplied by hundreds of electoral races made this option less appealing, and we’d need to build a custom method of interactive overlays.</li>
+  <li><strong>Client-side dynamic image manipulation</strong>: If we render all map images ahead of time and manipulate only the colors of the map’s features in the browser based on results data, we would have the benefit of reliable tile hosting combined with fast data refreshes and low tile generation overhead. This option had a lot of promise, and we had a working sample project that would load image tiles with each state, congressional distrcit, or county colored by a hexadecimal representation of its <a href="http://en.wikipedia.org/wiki/Federal_Information_Processing_Standard_state_code">FIPs ID</a> and use an HTML5 Canvas and JavasScript to evaluate the initial color of each pixel, decode its FIPs value, and recolor it according the latest results data. This scales well and preserved the high resolution of features available with image tiles. Ultimately though, it would require significant investment in a Flash fallback for Internet Explorer 8 and loading tiles from the remote mapbox.com origin into a Canvas element introduces cross-domain security issues.</li>
+  <li><strong>SVG vectors with VML fallback</strong>: This option won for a few reasons. First, there are several well established and easy-to-use libraries for SVG vector rendering that would allow us to do all of the map processing right in the browser and require absolutely no server-side infrastructure. We figured any server would be a considerable failure point, so this was important for ensuring reliability. And it would not require as much custom development as the previous Canvas-based approach.</li>
+</ul>
+
+<p><img src="http://farm8.staticflickr.com/7112/8163207933_8833e91f86_o.png" alt="National county results" /></p>
+
+<p><img src="http://farm9.staticflickr.com/8350/8163207909_6452f43838_o.png" alt="Electoral vote scale" /></p>
+
+<h3 id="rendering-the-maps">Rendering the maps</h3>
+
+<p>We chose <a href="http://d3js.org/">D3.js</a> to handle SVG map generation. D3 provides a simple interface for building SVGs, as well as native support for map projections and transitions. Since it doesn’t get bogged down with supporting legacy browsers without SVG support, we switched over to <a href="https://github.com/mhemesath/r2d3/">R2D3</a> for versions of Internet Explorer less than IE9.</p>
+
+<p>D3’s projection support includes Mercator and Albers, as well as an option to set your own. For national views we used an Albers projection, but for state-wide views we instead used the spherical Mercator projection in <a href="http://mapbox.com/mapbox.js/api/v0.6.6/">MapBox.js</a> so we could overlay the maps on the MapBox terrain layer. This was relatively easy to do — depending on the map’s zoom level, we changed the projection function. We also used D3 to animate the reprojection process for a smooth transition effect.</p>
+
+<iframe src="http://player.vimeo.com/video/53112747?title=0&byline=0&portrait=0&badge=0&autoplay=1&loop=1" width="600" height="500"> </iframe>
+
+<h3 id="geodata-processing">Geodata processing</h3>
+
+<p>Our maps required two inputs: geographic data for the shapes of and election results values for each political division. We used Census shape files for states and counties, and newly <a href="http://www.azavea.com/products/cicero/features/data/redistricted-boundary-data/">redistricted congressional districts from Azavea</a>. The source shape files were several megabytes each, so we needed to simplify their geographic detail considerably to get them small enough to transfer over the internet load in the browser. Our target was no more than 300kb gzip compressed size per file.</p>
+
+<p><a href="../../team/index.html#nate-smith">Nate</a> processed the data with a whole suite of open source tools including QGIS, PostGIS, and GDAL OGR. The first challenge was to reduce geographic complexity and maintain adjacent boundaries — more technically known as preserving topology. Secondly, we needed  to make sure the boundaries of features on different layers of data match — for example, when we layer state borders over congressional districts — which we solved by clipping congressional districts and counties to the boundary of each parent state.</p>
+
+<p>Pretty quickly we realized that we could not depend on one simplification file to give us both the small file size and high resolution detail we wanted. So we produced a set of heavily simplified congressional districts to use along with D3’s included simplified counties and states. This data would be used for small maps, like the thumbnails for each race, the national House race map, and the national county-level maps. For zoomed views, like when you click on a state to see county level detail, we produced higher resolution files for each state of all of that state’s counties and congressional districts. The application then dynamically loads data as you navigate the map. When you load the initial view, you receive a few simplified files to draw low resolution thumbnails and a high resolution main map of states. When you click on a state, a high resolution file of counties for that state loads, providing better detail without needing to preload a lot of extra geographic data.</p>
+
+<p><img src="http://farm8.staticflickr.com/7279/8167944436_c4ec07e7d2_o.png" alt="Low resolution data zoomed in" /></p>
+
+<p><img src="http://farm8.staticflickr.com/7136/8167922465_d8b6e8c13a_o.png" alt="High resolution data zoomed in" /></p>
+
+<p>In the end, we essentially built an API for requesting geographic data at two simplification levels. To make it scale, we did not do the processing on the fly. Requesting geographic data from a live database is a completely unnecessary risk when the geographic data is not going to change. We rendered all of the data to flat geoJSON text files that we hosted will all of the applications other static files.</p>
+
+<h2 id="the-web-application">The web application</h2>
+
+<p>As with the maps, we achieved high scalability and reliability by offloading as much as possible of the web application to the browser. There was no backend server application behind the web application. A single Backbone.js web application powered all of the embeds, full screen dashboard, and smart phone and tablet views.</p>
+
+<p><img src="http://farm8.staticflickr.com/7274/8163080418_caa970104e_o.png" alt="USATODAY Homepage" /></p>
+
+<p><img src="http://farm9.staticflickr.com/8209/8163215724_dae52f7b07_o.png" style="width: 295px; margin-right: 5px; display: inline-block;" /></p>
+
+<p><img src="http://farm9.staticflickr.com/8201/8163215540_4e9d0e3b4b_o.png" style="width: 295px; margin-left: 5px; display: inline-block;" /></p>
+
+<p>Initially, viewing the application only loads the most basic HTML layout and starts the Backbone router. Depending on the URL hash of the request, the router dynamically loads the rest of the HTML layout. Going to <code class="highlighter-rouge">/#embed</code> loads a particular embed view, whereas requesting <code class="highlighter-rouge">/#map</code> or <code class="highlighter-rouge">/#table</code> loads a main application map or table view. Additional values following the view parameter determine configuration settings like embed size, race, and state. For embeds, the main application with appropriate URL hash gets embedded in an iframe. For the main application, as you click through, you trigger new routes by updating the URL hash with new parameters, which updates the page without the need for a full refresh.</p>
+
+<p><img src="http://farm8.staticflickr.com/7115/8163207987_e3bd8a396c_o.png" alt="Table view" /></p>
+
+<p>For a complex application like this, we spent a lot of time in partnership with USA TODAY’s staff designing and developing the web application. But the principle is simple - lazily request only the data you actually need for a given view, including the HTML template, geodata, and results data. This allows us to have a large client-side application hosted on a single html page with no server application requirement.</p>
+
+<h3 id="results-data-api">Results data API</h3>
+
+<p>With the USA TODAY team, we drew up a spec for a simple JSON API to transfer the live election results. They built a process to ingest the Associated Press’s XML data and expose it according to the API’s schema. We predetermined and calculated all possible requests so they could be cached in a CDN with a very high TTL. There was little chance requests would ever need to go back to the data API’s server. Only one API endpoint updated frequently - a simple number of the latest version of data available on the server. The web application polled this endpoint every 30 seconds to make sure it had the latest data. If the API response had a higher number, the application knew new data was available and would issue requests against the endpoints it needed to rebuild its current view. The method provided a balance between detecting and updating data changes quickly and having highly cacheable requests to protect the API server. Since this would be the only part of the entire application that would require a server-side application, it was crucial to have a reliable caching process.</p>
+
+<h3 id="version-controlled-data">Version-controlled data</h3>
+
+<p>We initially set up a version control process on each of the eight minute data updates as a reliability failsafe. If anything went wrong in a new version of data, we could always roll back to a previous one. But we soon realized that these versions provided an interesting by-product - we could analyze differences between the versions to produce a feed of updates to draw viewers’ attention to the latest news coming out of the results data.</p>
+
+<p>The updates feed listed three main events - new states reporting results, races called for a candidate, and states that swung to a different party in the presidential election compared to 2008. Simple comparisons between the versions made it possible for us to show the narrative of the night through changes in the data. With an average time on site of about ten minutes, we were very excited by this feature.</p>
+
+      </div>
+    </div>
+  </div>
+
+  
+
+  <footer class="inpage__footer">
+    <div class="inner">
+      <nav class="inpage__footer-actions" role="navigation">
+        
+<dl class="inpage__details-list">
+  <dt>Topics:</dt>
+  
+  <dd><a href="../index-topic=Big%20Streaming%20Data.html" title="View content by topic" class="topic">Big Streaming Data</a></dd>
+  
+  <dd><a href="../index-topic=Product%20Design.html" title="View content by topic" class="topic">Product Design</a></dd>
+  
+</dl>
+
+
+        <ul class="inpage__elsewhere-menu">
+  
+  <li class="drop drop--up drop--align-center">
+    <a href="index.html#" title="Share" class="ipfa-share" data-toggle="drop"><span>Share</span></a>
+    <div class="drop__content">
+      <h6 class="drop__title">Share</h6>
+      <ul class="drop__menu drop__menu--iconified share-menu" role="menu">
+        <li><a href="https://twitter.com/share?url=https://developmentseed.org/projects/usatoday-elections/" target="_blank" title="Share on Twitter" class="drop__menu-item dmi-twitter">Twitter</a></li>
+        <li><a href="http://facebook.com/sharer.php?u=https://developmentseed.org/projects/usatoday-elections/" target="_blank" title="Share on Facebook" class="drop__menu-item dmi-facebook">Facebook</a></li>
+        <li><a href="https://plus.google.com/share?url=https://developmentseed.org/projects/usatoday-elections/" target="_blank" title="Share on Google+" class="drop__menu-item dmi-google-plus">Google+</a></li>
+      </ul>
+    </div>
+  </li>
+</ul>
+
+        
+
+<!-- START pager -->
+
+
+
+
+
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+
+
+
+  
+    
+    
+
+<ul class="inpage__pager">
+  <li>
+    
+    <a href="../index.html" title="View all" class="ipfa-pager-all"><span>All</span></a>
+    
+  </li>
+  <li>
+    
+    <a href="../data-unhcr/index.html" title="View previous" class="ipfa-pager-prev" data-pager-prev><span>Prev</span></a>
+    
+  </li>
+  <li>
+    
+    <a href="../global-adaptation-index/index.html" title="View next" class="ipfa-pager-next" data-pager-next><span>Next</span></a>
+    
+  </li>
+</ul>
+<!-- END pager -->
+
+      </nav>
+    </div>
+  </footer>
+</article>
+
+        
+        <section class="fold fold--dark fold--cta">
+  <div class="inner">
+    <header class="fold__header">
+      <h1 class="fold__title">Join our team</h1>
+    </header>
+    <div class="fold__body">
+      <div class="fold__prose prose prose--responsive">
+        <p>We're a team of engineers and designers working on big projects. We believe in open source and in building for lasting impact.</p>
+        <p class="align-center"><a class="fold__button-go" href="../../careers/jobs/index.html" title="View careers"><span>Join the team</span></a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+        
+        <section class="search" id="search" data-search-container><!-- Search via javascript --></section>
+      </main>
+
+      <footer class="page__footer" role="contentinfo">
+        <div class="inner">
+          <nav class="page__footer-nav nav" role="navigation">
+            <h2>Let's connect</h2>
+            <ul class="connect-menu">
+              <li class="connect-menu__item"><a href="https://medium.com/devseed" title="Follow us on Medium" class="connect-menu__link connect-menu__link--medium"><span>Medium</span></a></li>
+              <li class="connect-menu__item"><a href="https://github.com/developmentseed" title="Follow us on Twitter" class="connect-menu__link connect-menu__link--twitter"><span>Twitter</span></a></li>
+              <li class="connect-menu__item"><a href="https://github.com/developmentseed" title="Follow us on GitHub" class="connect-menu__link connect-menu__link--github"><span>GitHub</span></a></li>
+              <li class="connect-menu__item"><a href="https://www.flickr.com/photos/developmentseed/" title="Follow us on Flickr" class="connect-menu__link connect-menu__link--flickr"><span>Flickr</span></a></li>
+            </ul>
+          </nav>
+          <div class="page__credits">
+            <p class="credits">Development Seed • 2003-2019</p>
+          </div>
+        </div>
+      </footer>
+
+    </div>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-65674-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-65674-1');
+</script>
+
+  </body>
+
+</html>

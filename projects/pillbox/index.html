@@ -1,0 +1,445 @@
+
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+
+    
+
+
+
+
+
+
+<title>Open Prescription Drug Information — Development Seed</title>
+<meta name="description" content="An API for critical drug label data" />
+
+<!-- Twiter Cards -->
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@developmentseed" />
+<meta name="twitter:title" content="Open Prescription Drug Information — Development Seed">
+<meta name="twitter:description" content="An API for critical drug label data" />
+<meta name="twitter:image:src" content="https://developmentseed.org/assets/graphics/content/projects-legacy/pillbox-card.jpg" />
+
+
+
+<!--/ Twiter Cards -->
+
+<!-- Open Graph -->
+<meta property="og:site_name" content="Development Seed" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Open Prescription Drug Information — Development Seed" />
+<meta property="og:url" content="https://developmentseed.org/projects/pillbox/" />
+<meta property="og:description" content="An API for critical drug label data" />
+<meta property="og:image" content="https://developmentseed.org/assets/graphics/content/projects-legacy/pillbox-card.jpg" />
+<!--/ Open Graph -->
+
+    <link rel="icon" type="image/png" sizes="96x96" href="../../assets/graphics/meta/favicon.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="../../assets/graphics/meta/android-chrome.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../../assets/graphics/meta/apple-touch-icon.png" />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i" />
+
+    <link rel="stylesheet" href="../../assets/styles/vendor-63bcd5dba0.css">
+    <link rel="stylesheet" href="../../assets/styles/main-e3d778071c.css">
+    <link rel="author" href="../../humans.txt" type="text/plain" />
+
+    <script>
+      var DSO = window.DSO = {}; DSO.baseUrl = 'https://developmentseed.org';
+    </script>
+
+    <script src="../../assets/scripts/vendor-5f37a7c54c.js"></script>
+    <script src="../../assets/scripts/bundle-c9a6bce2c8.js"></script>
+  </head>
+  
+
+  
+  <body class="theme-pos">
+  
+    <div class="page">
+
+      <header class="page__header" role="banner">
+        <div class="inner">
+
+          <div class="page__headline">
+            <h1 class="page__title">
+              <a href="../../index.html" title="Development Seed">
+                
+                <img src="../../assets/graphics/layout/ds-logo-pos.svg" alt="Development Seed logotype" width="188" height="32" />
+                
+                <span>Development Seed</span>
+              </a>
+            </h1>
+          </div>
+
+          <nav class="page__prime-nav nav" role="navigation">
+            <a href="index.html#global-menu" title="Reveal menu" class="prime-action prime-action--browse" data-global-menu><span>Browse</span></a></h2>
+            <a href="index.html#search" title="Search content" class="prime-action prime-action--search" data-search-open><span>Search</span></a>
+
+            <div class="menu-wrapper">
+              <h2>Browse</h2>
+              <button type="button" class="global-menu-dismiss" title="Close" data-global-menu><span>Dismiss</span></button>
+
+              <ul class="global-menu" id="global-menu">
+                <li class="global-menu__item">
+                  <a href="../index.html" title="View the projects" class="global-menu__link global-menu__link--active"><span>Projects</span></a>
+                </li>
+                <li class="global-menu__item">
+                  <a href="https://greenhouse.developmentseed.org/" title="Visit The Greenhouse" class="global-menu__link"><small class="global-menu__label">The Greenhouse<span>: </span></small><span>Labs</span></a>
+                </li>
+                <li class="global-menu__item">
+                  <a href="https://medium.com/devseed" title="View our blog on Medium" class="global-menu__link"><span>Blog</span></a>
+                </li>
+                <li class="global-menu__item">
+                  <a href="../../team/index.html" title="View the team" class="global-menu__link "><span>Team</span></a>
+                </li>
+                <li class="global-menu__item">
+                  <a href="../../careers/jobs/index.html" title="Join the team" class="global-menu__link "><span>Careers</span></a>
+                </li>
+                <li class="global-menu__item">
+                  <a href="../../about/index.html" title="Read about us" class="global-menu__link "><span>About</span></a>
+                </li>
+                <li class="global-menu__item">
+                  <a href="../../contacts/index.html" title="Get in touch" class="global-menu__link "><span>Contacts</span></a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+
+        </div>
+      </header>
+
+      <main class="page__body" role="main">
+        <article class="inpage inpage--single inpage--projects">
+  <header class="inpage__header">
+    <div class="inner">
+      <div class="inpage__headline">
+        
+        <p class="inpage__subtitle">
+          
+            With <a href="http://www.nlm.nih.gov/" title="View more">National Library of Medicine</a>
+          
+
+          
+        </p>
+        
+        <h1 class="inpage__title">Open Prescription Drug&nbsp;Information</h1>
+        
+        <div class="inpage__introduction">
+          <p>An API for critical drug label&nbsp;data</p>
+        </div>
+        
+      </div>
+
+      
+      <div class="inpage__header-actions">
+        <a class="ipha-go-out" href="http://pillbox.nlm.nih.gov/pillimage/search.php" title="View project"><span>View project</span></a>
+      </div>
+      
+    </div>
+
+    
+  </header>
+
+  <div class="inpage__body">
+    <div class="inner">
+      <div class="prose prose--responsive">
+        <p class="dropcap">We worked with the National Library of Medicine launched <a href="https://hhs.github.io/pillbox/">Pillbox for Developers</a>. Developers now have access to powerful tools for processing and publishing drug label data. Ultimately this will lead to more accurate and accessible drug data for pharmacists, health professionals, advocates, and patients.</p>
+
+<p><a href="https://hhs.github.io/pillbox/"><img src="https://farm3.staticflickr.com/2921/14065756697_6f0122f64e_c.jpg" alt="" /></a></p>
+
+<h3 id="digesting-complex-drug-data">Digesting Complex Drug Data</h3>
+
+<p><a href="http://www.fda.gov/forindustry/datastandards/structuredproductlabeling/default.htm">Drug label data</a> is a incredibly complex and critically important set of data. In the United States, the <a href="http://www.fda.gov/">Food and Drug Administration (FDA)</a> maintains a massive dataset off all prescription and over-the-counter medicines. Over 16GB of XML data is made available on a <a href="http://dailymed.nlm.nih.gov/">daily basis</a>. Processing this data is technically difficult and time consuming.</p>
+
+<p><a href="http://pillbox.nlm.nih.gov/pillimage/search.php">Pillbox</a> is an initiative of the National Library of Medicine, to produce an easy to use, “pill-focused” view of this data. Pillbox is one of the largest freely available drug label and image datasets in the US. The Pillbox website and API are a critical resource for pharmacists, health professionals, journalists, and citizens to access drug information. Over 30,000 products are available to be searched by shape, size, color.</p>
+
+<p><img src="https://farm6.staticflickr.com/5320/14272532373_9cbd397430_c.jpg" alt="" />
+<em>Acetaminophen has recently been found to have significant liver health risks. Pillbox enables searching of dosage amounts and images of pills with acetaminophen, like Tylenol above.</em></p>
+
+<h3 id="vastly-improved-processing">Vastly Improved Processing</h3>
+
+<p>We worked with Pillbox to move from a manual processes that took nearly two weeks to process data to one process that now takes 45 minutes. We built a new process using Python that downloads 16GB of XML files, consumes and parses the data, checks for errors and individual products, and produces a new drug label dataset based on individual pills. The improved process is faster and it produces more accurate and usable data.</p>
+
+<h3 id="making-pillbox-more-open">Making Pillbox More Open</h3>
+
+<p>We are also helping Pillbox to be more open. The data processing code is <a href="https://github.com/HHS/pillbox-data-process">open source and is available</a> today on GitHub. We’ve worked with Pillbox to structure and comment the code in a way to make it more accessible to open source developers. In addition to the existing API, Pillbox will make raw datasets available for bulk download.</p>
+
+<p>Going forward Pillbox will make more code available and will make raw datasets available in more formats. Check out <a href="https://hhs.github.io/pillbox/">Pillbox for Developers</a> and add any suggestions and improvements on <a href="https://github.com/HHS/pillbox-data-process">GitHub</a>.</p>
+
+      </div>
+    </div>
+  </div>
+
+  
+  <aside class="inpage__aside">
+    <div class="inner">
+      <div class="inpage__aside-block">
+        <div class="source-repo">
+          <p>This is an open source project.<br /> You can find it on <a href="https://github.com/HHS/pillbox-data-process" title="View on GitHub">GitHub</a>.
+            
+          </p>
+          <p>Go ahead and <a href="https://github.com/HHS/pillbox-data-process/fork" title="Fork repo">fork it</a>.</p>
+        </div>
+      </div>
+    </div>
+  </aside>
+  
+
+  <footer class="inpage__footer">
+    <div class="inner">
+      <nav class="inpage__footer-actions" role="navigation">
+        
+<dl class="inpage__details-list">
+  <dt>Topics:</dt>
+  
+  <dd><a href="../index-topic=Open Data.html" title="View content by topic" class="topic">Open Data</a></dd>
+  
+  <dd><a href="../index-topic=Big Streaming Data.html" title="View content by topic" class="topic">Big Streaming Data</a></dd>
+  
+</dl>
+
+
+        <ul class="inpage__elsewhere-menu">
+  
+  <li><a href="https://github.com/HHS/pillbox-data-process/fork" title="Fork repo" class="ipfa-fork"><span>Fork</span></a></li>
+  
+  <li class="drop drop--up drop--align-center">
+    <a href="index.html#" title="Share" class="ipfa-share" data-toggle="drop"><span>Share</span></a>
+    <div class="drop__content">
+      <h6 class="drop__title">Share</h6>
+      <ul class="drop__menu drop__menu--iconified share-menu" role="menu">
+        <li><a href="https://twitter.com/share?url=https://developmentseed.org/projects/pillbox/" target="_blank" title="Share on Twitter" class="drop__menu-item dmi-twitter">Twitter</a></li>
+        <li><a href="http://facebook.com/sharer.php?u=https://developmentseed.org/projects/pillbox/" target="_blank" title="Share on Facebook" class="drop__menu-item dmi-facebook">Facebook</a></li>
+        <li><a href="https://plus.google.com/share?url=https://developmentseed.org/projects/pillbox/" target="_blank" title="Share on Google+" class="drop__menu-item dmi-google-plus">Google+</a></li>
+      </ul>
+    </div>
+  </li>
+</ul>
+
+        
+
+<!-- START pager -->
+
+
+
+
+
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+    
+
+<ul class="inpage__pager">
+  <li>
+    
+    <a href="../index.html" title="View all" class="ipfa-pager-all"><span>All</span></a>
+    
+  </li>
+  <li>
+    
+    <a href="../afghanistan-elections/index.html" title="View previous" class="ipfa-pager-prev" data-pager-prev><span>Prev</span></a>
+    
+  </li>
+  <li>
+    
+    <a href="../relief-web-ebola/index.html" title="View next" class="ipfa-pager-next" data-pager-next><span>Next</span></a>
+    
+  </li>
+</ul>
+<!-- END pager -->
+
+      </nav>
+    </div>
+  </footer>
+</article>
+
+        
+        <section class="fold fold--dark fold--cta">
+  <div class="inner">
+    <header class="fold__header">
+      <h1 class="fold__title">Join our team</h1>
+    </header>
+    <div class="fold__body">
+      <div class="fold__prose prose prose--responsive">
+        <p>We're a team of engineers and designers working on big projects. We believe in open source and in building for lasting impact.</p>
+        <p class="align-center"><a class="fold__button-go" href="../../careers/jobs/index.html" title="View careers"><span>Join the team</span></a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+        
+        <section class="search" id="search" data-search-container><!-- Search via javascript --></section>
+      </main>
+
+      <footer class="page__footer" role="contentinfo">
+        <div class="inner">
+          <nav class="page__footer-nav nav" role="navigation">
+            <h2>Let's connect</h2>
+            <ul class="connect-menu">
+              <li class="connect-menu__item"><a href="https://medium.com/devseed" title="Follow us on Medium" class="connect-menu__link connect-menu__link--medium"><span>Medium</span></a></li>
+              <li class="connect-menu__item"><a href="https://github.com/developmentseed" title="Follow us on Twitter" class="connect-menu__link connect-menu__link--twitter"><span>Twitter</span></a></li>
+              <li class="connect-menu__item"><a href="https://github.com/developmentseed" title="Follow us on GitHub" class="connect-menu__link connect-menu__link--github"><span>GitHub</span></a></li>
+              <li class="connect-menu__item"><a href="https://www.flickr.com/photos/developmentseed/" title="Follow us on Flickr" class="connect-menu__link connect-menu__link--flickr"><span>Flickr</span></a></li>
+            </ul>
+          </nav>
+          <div class="page__credits">
+            <p class="credits">Development Seed • 2003-2019</p>
+          </div>
+        </div>
+      </footer>
+
+    </div>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-65674-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-65674-1');
+</script>
+
+  </body>
+
+</html>

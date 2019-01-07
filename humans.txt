@@ -1,0 +1,43 @@
+______               _                                  _     _____               _
+|  _  \             | |                                | |   /  ___|             | |
+| | | |_____   _____| | ___  _ __  _ __ ___   ___ _ __ | |_  \ `--.  ___  ___  __| |
+| | | / _ \ \ / / _ \ |/ _ \| '_ \| '_ ` _ \ / _ \ '_ \| __|  `--. \/ _ \/ _ \/ _` |
+| |/ /  __/\ V /  __/ | (_) | |_) | | | | | |  __/ | | | |_  /\__/ /  __/  __/ (_| |
+|___/ \___| \_/ \___|_|\___/| .__/|_| |_| |_|\___|_| |_|\__| \____/ \___|\___|\__,_|
+                            | |
+                            |_|
+===================================================================================
+
+/* TEAM */
+
+Developer: Daniel da Silva
+Site: http://developmentseed.org
+Twitter: @danielfdsilva
+Location: Lisbon, Portugal
+
+Copywriter/Strategist: Ian Schuler
+Site: http://developmentseed.org
+Twitter: @ianschuler
+Location: Washington, D.C., U.S.A.
+
+Developer: Olaf Veerman
+Site: http://developmentseed.org
+Twitter: @oBirdman
+Location: Lisbon, Portugal
+
+Developer/Strategist: Nate Smith
+Site: http://developmentseed.org
+Twitter: @nas_smith
+Location: Washington, D.C., U.S.A.
+
+UI/UX Designer: Ricardo Mestre
+Site: http://developmentseed.org
+Twitter: @ricardoduplos
+Location: Lisbon, Portugal
+
+/* SITE */
+
+Last update: 2019/01/03
+Standards: HTML5, CSS3, RWD
+Components: jQuery, Jekyll, Mapbox
+Software: Sublime Text, Eclipse, Adobe Illustrator CC, GitHub (Mac)

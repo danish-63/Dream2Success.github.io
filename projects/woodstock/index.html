@@ -1,0 +1,499 @@
+
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+
+    
+
+
+
+
+
+
+<title>Opening Illinois Housing Data — Development Seed</title>
+<meta name="description" content="Evaluating neighborhood health with mortgage, income, and employment data" />
+
+<!-- Twiter Cards -->
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@developmentseed" />
+<meta name="twitter:title" content="Opening Illinois Housing Data — Development Seed">
+<meta name="twitter:description" content="Evaluating neighborhood health with mortgage, income, and employment data" />
+<meta name="twitter:image:src" content="https://developmentseed.org/assets/graphics/content/projects-legacy/woodstock.thumb.png" />
+
+
+
+<!--/ Twiter Cards -->
+
+<!-- Open Graph -->
+<meta property="og:site_name" content="Development Seed" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Opening Illinois Housing Data — Development Seed" />
+<meta property="og:url" content="https://developmentseed.org/projects/woodstock/" />
+<meta property="og:description" content="Evaluating neighborhood health with mortgage, income, and employment data" />
+<meta property="og:image" content="https://developmentseed.org/assets/graphics/content/projects-legacy/woodstock.thumb.png" />
+<!--/ Open Graph -->
+
+    <link rel="icon" type="image/png" sizes="96x96" href="../../assets/graphics/meta/favicon.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="../../assets/graphics/meta/android-chrome.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../../assets/graphics/meta/apple-touch-icon.png" />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i" />
+
+    <link rel="stylesheet" href="../../assets/styles/vendor-63bcd5dba0.css">
+    <link rel="stylesheet" href="../../assets/styles/main-e3d778071c.css">
+    <link rel="author" href="../../humans.txt" type="text/plain" />
+
+    <script>
+      var DSO = window.DSO = {}; DSO.baseUrl = 'https://developmentseed.org';
+    </script>
+
+    <script src="../../assets/scripts/vendor-5f37a7c54c.js"></script>
+    <script src="../../assets/scripts/bundle-c9a6bce2c8.js"></script>
+  </head>
+  
+
+  
+  <body class="theme-pos">
+  
+    <div class="page">
+
+      <header class="page__header" role="banner">
+        <div class="inner">
+
+          <div class="page__headline">
+            <h1 class="page__title">
+              <a href="../../index.html" title="Development Seed">
+                
+                <img src="../../assets/graphics/layout/ds-logo-pos.svg" alt="Development Seed logotype" width="188" height="32" />
+                
+                <span>Development Seed</span>
+              </a>
+            </h1>
+          </div>
+
+          <nav class="page__prime-nav nav" role="navigation">
+            <a href="index.html#global-menu" title="Reveal menu" class="prime-action prime-action--browse" data-global-menu><span>Browse</span></a></h2>
+            <a href="index.html#search" title="Search content" class="prime-action prime-action--search" data-search-open><span>Search</span></a>
+
+            <div class="menu-wrapper">
+              <h2>Browse</h2>
+              <button type="button" class="global-menu-dismiss" title="Close" data-global-menu><span>Dismiss</span></button>
+
+              <ul class="global-menu" id="global-menu">
+                <li class="global-menu__item">
+                  <a href="../index.html" title="View the projects" class="global-menu__link global-menu__link--active"><span>Projects</span></a>
+                </li>
+                <li class="global-menu__item">
+                  <a href="https://greenhouse.developmentseed.org/" title="Visit The Greenhouse" class="global-menu__link"><small class="global-menu__label">The Greenhouse<span>: </span></small><span>Labs</span></a>
+                </li>
+                <li class="global-menu__item">
+                  <a href="https://medium.com/devseed" title="View our blog on Medium" class="global-menu__link"><span>Blog</span></a>
+                </li>
+                <li class="global-menu__item">
+                  <a href="../../team/index.html" title="View the team" class="global-menu__link "><span>Team</span></a>
+                </li>
+                <li class="global-menu__item">
+                  <a href="../../careers/jobs/index.html" title="Join the team" class="global-menu__link "><span>Careers</span></a>
+                </li>
+                <li class="global-menu__item">
+                  <a href="../../about/index.html" title="Read about us" class="global-menu__link "><span>About</span></a>
+                </li>
+                <li class="global-menu__item">
+                  <a href="../../contacts/index.html" title="Get in touch" class="global-menu__link "><span>Contacts</span></a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+
+        </div>
+      </header>
+
+      <main class="page__body" role="main">
+        <article class="inpage inpage--single inpage--projects">
+  <header class="inpage__header">
+    <div class="inner">
+      <div class="inpage__headline">
+        
+        <p class="inpage__subtitle">
+          
+            With <a href="http://www.woodstockinst.org/" title="View more">Woodstock Foundation</a>
+          
+
+          
+        </p>
+        
+        <h1 class="inpage__title">Opening Illinois Housing&nbsp;Data</h1>
+        
+        <div class="inpage__introduction">
+          <p>Evaluating neighborhood health with mortgage, income, and employment&nbsp;data</p>
+        </div>
+        
+      </div>
+
+      
+      <div class="inpage__header-actions">
+        <a class="ipha-go-out" href="http://www.woodstockinst.org/content/woodstock-institute-interactive-map" title="View project"><span>View project</span></a>
+      </div>
+      
+    </div>
+
+    
+  </header>
+
+  <div class="inpage__body">
+    <div class="inner">
+      <div class="prose prose--responsive">
+        <p class="dropcap">The housing crisis deeply impacted millions of Americans. Communities, both urban and rural, are still far from recovery. Neighborhoods experienced the housing crisis in different ways. There isn’t a one-size-fits-all solution to the problems that communities still face.</p>
+
+<p>We worked with the Woodstock Foundation, a economic justice organization in Illinois, to create <a href="http://www.woodstockinst.org/content/woodstock-institute-interactive-map">a data and mapping tool on housing and economic conditions</a> to the neighborhood level.</p>
+
+<p>The site brings together 74 datasets on the well-being of local communities. Data ranges from <a href="http://woodstockinst.github.io/woodstock-maps/#mortgage/census_tract/avg_loan_value/2012">the average amount of mortgage debt people take on</a> to the rate of foreclosure filings in <a href="http://woodstockinst.github.io/woodstock-maps/#chicago_foreclosure/census_tract/foreclosure_filings_per_1000/2013">the Chicago region</a> and <a href="http://woodstockinst.github.io/woodstock-maps/#rest_of_illinois_foreclosure/census_tract/nos_per_1000/2013">elsewhere in Illinois</a>. The tool provides a roadmap to the dozens of local organizations that are working in housing and economic justice in Illinois. Community organizations in Illinois use the tool to inform their decisions on where to how to do their work.</p>
+
+<p><img src="https://c2.staticflickr.com/6/5606/15813741921_6b51750a2a_b.jpg" alt="high-income" />
+<em>Where the highest income census tracts are in the Chicago six-county region</em></p>
+
+<h2 id="optimizing-for-big-complex-data">Optimizing for big, complex data</h2>
+
+<p>Housing data is complex, and Woodstock Foundation gathered amazingly granular statistics about housing data in Illinois. This data existed primarily in spreadsheets. Woodstock is a small nonprofit, and we wanted to ease as much as possible the burden of maintaining a complicated website.</p>
+
+<p>We wrote a python library to break up their spreadsheets into <a href="http://en.wikipedia.org/wiki/JSON">JSON</a>. Every time you switch to a new facet of housing data, every time you view a different year or category of that data, your browser incrementally downloads a new JSON file. Although those files in aggregate would take ages to load, individually they are manageable. Those scripts, along with the rest of the site, are <a href="https://github.com/woodstockinst/woodstock-maps">open-source</a>.</p>
+
+<p>To further reduce load times, we use the <a href="https://github.com/mbostock/topojson">topojson</a> spec to reduce the size of geographic boundary data. This allowed us to separate geographic data from numerical data, and only download those complex census tract boundaries once. As you select new indicators, code that runs in your browser re-connects the new data to those boundaries on the fly.</p>
+
+<p>Using vector-based geographical boundaries has other benefits. It allowed us to use a mouse click on an overlaying geographic boundary and a <a href="http://stackoverflow.com/questions/217578/point-in-polygon-aka-hit-test">point-in-polygon</a> test to find, for example, which congressional representative is responsible for which census tract.</p>
+
+<p><img src="https://c2.staticflickr.com/6/5611/15195642794_9075b6af59_b.jpg" alt="collision-detection" />
+<em>Detecting congressional boundaries</em></p>
+
+<h2 id="census-tracts-over-multiple-years">Census tracts over multiple years</h2>
+
+<p>Census tracts change between census years, creating problems when mapping census tract data over multiple years. Tract ID, or FIPS codes can either refer to a different neighborhood or disappear entirely.</p>
+
+<p>As part of this project we built an open source tool, the pulls from Census Bureau <a href="https://www.census.gov/geo/maps-data/data/relationship.html">relationship files</a> to <a href="http://www.developmentseed.org/blog/2014/04/25/making-sense-of-census-changes/">show the difference between two years</a>.</p>
+
+      </div>
+    </div>
+  </div>
+
+  
+  <aside class="inpage__aside">
+    <div class="inner">
+      <div class="inpage__aside-block">
+        <div class="source-repo">
+          <p>This is an open source project.<br /> You can find it on <a href="https://github.com/developmentseed/census-tracts" title="View on GitHub">GitHub</a>.
+            
+          </p>
+          <p>Go ahead and <a href="https://github.com/developmentseed/census-tracts/fork" title="Fork repo">fork it</a>.</p>
+        </div>
+      </div>
+    </div>
+  </aside>
+  
+
+  <footer class="inpage__footer">
+    <div class="inner">
+      <nav class="inpage__footer-actions" role="navigation">
+        
+<dl class="inpage__details-list">
+  <dt>Topics:</dt>
+  
+  <dd><a href="../index-topic=Open Data.html" title="View content by topic" class="topic">Open Data</a></dd>
+  
+</dl>
+
+
+        <ul class="inpage__elsewhere-menu">
+  
+  <li><a href="https://github.com/developmentseed/census-tracts/fork" title="Fork repo" class="ipfa-fork"><span>Fork</span></a></li>
+  
+  <li class="drop drop--up drop--align-center">
+    <a href="index.html#" title="Share" class="ipfa-share" data-toggle="drop"><span>Share</span></a>
+    <div class="drop__content">
+      <h6 class="drop__title">Share</h6>
+      <ul class="drop__menu drop__menu--iconified share-menu" role="menu">
+        <li><a href="https://twitter.com/share?url=https://developmentseed.org/projects/woodstock/" target="_blank" title="Share on Twitter" class="drop__menu-item dmi-twitter">Twitter</a></li>
+        <li><a href="http://facebook.com/sharer.php?u=https://developmentseed.org/projects/woodstock/" target="_blank" title="Share on Facebook" class="drop__menu-item dmi-facebook">Facebook</a></li>
+        <li><a href="https://plus.google.com/share?url=https://developmentseed.org/projects/woodstock/" target="_blank" title="Share on Google+" class="drop__menu-item dmi-google-plus">Google+</a></li>
+      </ul>
+    </div>
+  </li>
+</ul>
+
+        
+
+<!-- START pager -->
+
+
+
+
+
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+    
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+    
+    
+
+<ul class="inpage__pager">
+  <li>
+    
+    <a href="../index.html" title="View all" class="ipfa-pager-all"><span>All</span></a>
+    
+  </li>
+  <li>
+    
+    <a href="../votehere-af/index.html" title="View previous" class="ipfa-pager-prev" data-pager-prev><span>Prev</span></a>
+    
+  </li>
+  <li>
+    
+    <a href="../healthcare-gov/index.html" title="View next" class="ipfa-pager-next" data-pager-next><span>Next</span></a>
+    
+  </li>
+</ul>
+<!-- END pager -->
+
+      </nav>
+    </div>
+  </footer>
+</article>
+
+        
+        <section class="fold fold--dark fold--cta">
+  <div class="inner">
+    <header class="fold__header">
+      <h1 class="fold__title">Join our team</h1>
+    </header>
+    <div class="fold__body">
+      <div class="fold__prose prose prose--responsive">
+        <p>We're a team of engineers and designers working on big projects. We believe in open source and in building for lasting impact.</p>
+        <p class="align-center"><a class="fold__button-go" href="../../careers/jobs/index.html" title="View careers"><span>Join the team</span></a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+        
+        <section class="search" id="search" data-search-container><!-- Search via javascript --></section>
+      </main>
+
+      <footer class="page__footer" role="contentinfo">
+        <div class="inner">
+          <nav class="page__footer-nav nav" role="navigation">
+            <h2>Let's connect</h2>
+            <ul class="connect-menu">
+              <li class="connect-menu__item"><a href="https://medium.com/devseed" title="Follow us on Medium" class="connect-menu__link connect-menu__link--medium"><span>Medium</span></a></li>
+              <li class="connect-menu__item"><a href="https://github.com/developmentseed" title="Follow us on Twitter" class="connect-menu__link connect-menu__link--twitter"><span>Twitter</span></a></li>
+              <li class="connect-menu__item"><a href="https://github.com/developmentseed" title="Follow us on GitHub" class="connect-menu__link connect-menu__link--github"><span>GitHub</span></a></li>
+              <li class="connect-menu__item"><a href="https://www.flickr.com/photos/developmentseed/" title="Follow us on Flickr" class="connect-menu__link connect-menu__link--flickr"><span>Flickr</span></a></li>
+            </ul>
+          </nav>
+          <div class="page__credits">
+            <p class="credits">Development Seed • 2003-2019</p>
+          </div>
+        </div>
+      </footer>
+
+    </div>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-65674-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-65674-1');
+</script>
+
+  </body>
+
+</html>
